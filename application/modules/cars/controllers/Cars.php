@@ -26,7 +26,7 @@ class Cars extends Admin_Controller
     public function index()
     {
         // Display active clients by default
-        redirect('clients/status/view');
+        redirect('cars/view');
     }
     
     /**
